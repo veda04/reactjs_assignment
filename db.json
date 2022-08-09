@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "email": "gul@gmail.com",
+      "password": "abcd",
+      "phoneNumber": "9284646177",
+      "id": 2
+    },
+    {
+      "email": "papa@gmail.com",
+      "password": "abcd",
+      "phoneNumber": "9284646177",
+      "id": 4
+    },
+    {
+      "email": "lahi@gmail.com",
+      "password": "abcd",
+      "phoneNumber": "9284646177",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+	font-family: 'Kumbh Sans', sans-serif !important;
+}
+.page-section{
+	display: flex;
+}
+.admin-bg{
+	position: relative	;
+	background: url('Images/background.jpg') no-repeat center;
+    background-size: cover;
+}
+.admin-bg:before{
+    /*background-color: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(90deg, rgb(160 150 15 / 68%) 40%, rgb(178 127 2 / 70%) 100%);*/
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.text-center{
+    text-align: center;
+}
+.top-space{
+    margin: 10px 0 0;
+}
+.w-50{
+	width: 50%;
+	height: 100vh;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.mar-auto{
+    margin: 0 auto;
+}
+.disp-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.disp-flex .form-group{
+    padding: 10px;
+}
+
+/*LOGIN*/
+.edit-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edit-block h2 {
+    font: 700 40px/20px 'Kumbh Sans', sans-serif !important;
+    margin: 0 0 20px;
+}
+.edit-block p{
+	    font-size: 18px;
+}
+.input-cover{
+	width: 100%;
+    padding: 0 150px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+.float-label {
+    padding-top: 20px;
+    margin-top: 0px;
+}
+.guest-detail {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-control {
+	display: block !important;
+	width: 100% !important;
+	height: 40px !important;
+	padding: 6px 12px 6px 48px !important;
+	font-size: 14px !important;
+	line-height: 1.42857143 !important;
+	color: #555 !important;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 10px !important;
+	box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+input:focus ~ .floating-label, input:not(:focus):valid ~ .floating-label {
+    top: 20px !important;
+    bottom: 0px;
+    left: 50px;
+    letter-spacing: 0.48px;
+    color: #02b2b0 !important;
+    font: 500 12px/20px 'Kumbh Sans', sans-serif !important;
+    font-size: 12px !important;
+}
+.error{
+	position: absolute;
+    bottom: -18px;
+    font-size: 11px;
+    color: #f00000;
+}
+.floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 59px;
+    top: 35px;
+    transition: 0.2s ease all;
+    color: #808080;
+    letter-spacing: 0.3px;
+    font: 500 16px/20px 'Kumbh Sans', sans-serif !important;
+}
+.button-container{
+	margin: 30px 0 20px;
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.btn-submit {
+    background: rgb(15,113,160);
+    background: linear-gradient(90deg, rgb(245 226 170) 40%, rgb(232 196 112) 100%) !important;
+    color: #fff;
+    border: none !important;
+    outline: none !important;
+    padding: 11px 16px !important;
+    font-size: 16px !important;
+    line-height: 1.3333333;
+    border-radius: 27px !important;
+    text-transform: uppercase;
+    color: #516e80 !important;
+    width: 50% !important;
+    margin: 0 auto !important;
+}
+
+
+.dashboard .floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 0px;
+    top: -4px;
+    transition: 0.2s ease all;
+    color: #808080;
+    letter-spacing: 0.3px;
+    font: 500 14px/20px 'Kumbh Sans', sans-serif !important;
+}
+
+.form-control {
+    padding: 6px 12px 6px 12px !important;
+}
+
+.btn-action{
+    border: 1px solid #fff;
+    padding: 6px 10px;
+    margin: 12px 10px;
+}
+
+.btn-update{
+    background: #008500;
+    color: #fff;
+}
+.btn-delete{
+    background: #c90000;
+    color: #fff;
+}
